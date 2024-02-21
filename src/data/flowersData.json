@@ -1,0 +1,75 @@
+[
+    {
+        "id":1,
+        "name": "Rose",
+        "description": "A beautiful flower symbolizing love and romance.",
+        "price": 10.99,
+        "image_url": "https://cdn.wallpapersafari.com/43/4/9JstQh.jpg"
+    },
+    {   "id":2,
+        "name": "Tulip",
+        "description": "A vibrant flower available in various colors.",
+        "price": 8.99,
+        "image_url": "https://www.juneflowers.com/wp-content/uploads/2022/09/Pink-Tulips.jpg"
+    },
+    {   "id":3,
+        "name": "Sunflower",
+        "description": "A cheerful flower with a bright yellow color.",
+        "price": 12.99,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Sunflower_sky_backdrop.jpg"
+    },
+    {   "id":4,
+        "name": "Daisy",
+        "description": "A simple yet beautiful flower with a white or yellow center.",
+        "price": 6.99,
+        "image_url": "https://hips.hearstapps.com/hmg-prod/images/marguerite-daisy-types-1586981163.jpg"
+    },
+    {   "id":5,
+        "name": "Lily",
+        "description": "An elegant flower with large, trumpet-shaped blooms.",
+        "price": 14.99,
+        "image_url": "https://plantparadise.in/cdn/shop/products/Christmas_Lily_1.jpg?v=1691200382"
+    },
+    {   "id":6,
+        "name": "Orchid",
+        "description": "A delicate flower often associated with luxury and beauty.",
+        "price": 18.99,
+        "image_url": "https://www.sunset.com/wp-content/uploads/orchids-pc-dmitriy-sidor-getty.jpg"
+    },
+    {   "id":7,
+        "name": "Carnation",
+        "description": "A versatile flower available in various colors and often used in bouquets.",
+        "price": 7.99,
+        "image_url": "https://www.planetnatural.com/wp-content/uploads/2023/11/Standard-carnations.jpg"
+    },
+    {   "id":8,
+        "name": "Hydrangea",
+        "description": "A cluster of small flowers forming a large, showy bloom.",
+        "price": 11.99,
+        "image_url": "https://i.ebayimg.com/images/g/kawAAOSwNKdjrcli/s-l1200.webp"
+    },
+    {   "id":9,
+        "name": "Peony",
+        "description": "A fragrant flower with large, fluffy blooms.",
+        "price": 16.99,
+        "image_url": "https://www.marthastewart.com/thmb/iHGLDq36CNLlT9GIl7-BzWh7Xos=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/grow-care-for-peonies-getty-0623-3a9d64a09fb6418398e035cb1c9c7326.jpg"
+    },
+    {   "id":10,
+        "name": "Crocus",
+        "description": "An early spring flower known for its vibrant colors.",
+        "price": 9.99,
+        "image_url": "https://www.gardendesign.com/pictures/images/900x705Max/dream-team-s-portland-garden_6/crocus-purple-flower-pixabay_12891.jpg"
+    },
+    {   "id":11,
+        "name": "Daffodil",
+        "description": "A cheerful flower with bright yellow blooms.",
+        "price": 5.99,
+        "image_url": "https://www.stylecraze.com/wp-content/uploads/2013/10/3707-Top-25-Most-Beautiful-Daffodil-Flowers.jpg"
+    },
+    {   "id":12,
+        "name": "Cherry Blossom",
+        "description": "A symbol of beauty and renewal, cherry blossoms bloom in springtime.",
+        "price": 13.99,
+        "image_url": "https://seed2plant.in/cdn/shop/files/Cherry-Blossoms-seed2plant-1.jpg?v=1700159435"
+    }
+]
