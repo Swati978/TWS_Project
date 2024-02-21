@@ -1,0 +1,28 @@
+.header {
+  background-color: #ffe6e6;
+  padding: 20px;
+  text-align: center;
+}
+
+.navbar {
+  margin-top: 20px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar ul li {
+  margin: 0 15px;
+  font-size: 18px;
+}
+
+.navbar ul li:hover {
+  cursor: pointer;
+  color: #555;
+  text-decoration: underline;
+}

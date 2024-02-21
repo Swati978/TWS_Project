@@ -1,0 +1,178 @@
+.product-listing-container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    position: relative; 
+  }
+  
+  .background-flowers {
+    top: 0;
+    left: 0;
+    width: 100vw; 
+    height: 100vh; 
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    z-index: -1;
+  }
+  
+  .welcome-message {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .product-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #f8f8f8;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .product-info {
+    flex-grow: 1;
+  }
+  
+  .product-info h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #333; 
+  }
+  
+  .product-info p {
+    font-size: 16px;
+    color: #666; 
+  }
+  
+  .product-buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .add-to-cart-btn,
+  .remove-from-cart-btn,
+  .proceed-to-checkout-btn {
+    background-color: #ffe6e6; 
+    border: none;
+    border-radius: 5px;
+    margin: 10px; 
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold; 
+    color: #333;
+    height: 50%;
+  }
+  
+  
+  
+  .add-to-cart-btn:hover,
+  .remove-from-cart-btn:hover,
+  .proceed-to-checkout-btn:hover {
+    background-color: #ffb3b3; 
+  }
+  
+  .add-to-cart-btn:disabled {
+    background-color: #f5f5f5; 
+    cursor: not-allowed;
+  }
+  
+
+  
+  .product-listing-container {
+    font-family: Arial, sans-serif;
+  }
+  
+  .flower-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .flower-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .flower-info {
+    flex: 1;
+  }
+  
+  .flower-list-card {
+    width: 80%; 
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .flower-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .flower-item {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc; 
+    padding-bottom: 20px;
+  }
+  
+  .flower-image {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+  }
+  
+  .flower-info {
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .flower-buttons {
+    margin-top: 10px;
+  }
+  
+  .add-to-cart-btn,
+  .remove-from-cart-btn {
+    margin-right: 5px;
+  }
+  .header {
+    background-color: #DED0F9  ; 
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 24px; 
+    color: #333;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .navbar ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .navbar ul li:last-child {
+    margin-right: 0; 
+  }
+  
+  .navbar ul li a {
+    text-decoration: none; 
+    color: #333; 
+    font-weight: bold;
+  }
+  
+  .navbar ul li a:hover {
+    color: #555; 
+  }
+  
