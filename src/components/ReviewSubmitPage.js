@@ -16,7 +16,7 @@ const ReviewAndSubmitOrderPage = () => {
     totalAmount,
   } = useContext(CartContext);
   const [orderConfirmed, setOrderConfirmed] = useState(false);
-
+// eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     if (cartItems.length === 0 || !customerInfo) {
       const storedCartItems =
@@ -37,20 +37,7 @@ const ReviewAndSubmitOrderPage = () => {
     }
   }, []);
 
-  useEffect(() => {
-    const handleBeforeUnload = (event) => {
-      event.preventDefault();
-      event.returnValue = "";
-      console.log("Tab is being closed");
-      return "Are you sure you want to leave?";
-    };
-
-    window.addEventListener("beforeunload", handleBeforeUnload);
-
-    return () => {
-      window.removeEventListener("beforeunload", handleBeforeUnload);
-    };
-  }, []);
+  
 
   const handleConfirm = () => {
     setOrderConfirmed(true);
